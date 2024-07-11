@@ -39,7 +39,7 @@ function Signup() {
     <>
     <div className='flex h-screen items-center justify-center'>
     <div className="w-[600px]">
-  <div className="modal-box">
+  <div className="modal-box dark:bg-slate-900 dark:text-white">
     <form onSubmit={handleSubmit(onSubmit)} method="dialog">
       {/* if there is a button in form, it will close the modal */}
       <Link to="/" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
@@ -49,7 +49,7 @@ function Signup() {
         <span className='px-1'>Name</span>
         <br/>
         <input type="text" placeholder="Enter Full Name" 
-        className="w-80 px-3 py-1 border rounded-md outline-none"
+        className="w-80 px-3 py-1 border rounded-md outline-none dark:text-black"
         {...register("fullname", { required: true })}
         />
         <br/>
@@ -59,7 +59,7 @@ function Signup() {
         <span className='px-1'>Email</span>
         <br/>
         <input type="email" placeholder="Enter Email" 
-        className="w-80 px-3 py-1 border rounded-md outline-none"
+        className="w-80 px-3 py-1 border rounded-md outline-none dark:text-black"
         {...register("email", { required: true })}
         />
         <br/>
@@ -70,7 +70,7 @@ function Signup() {
         <span className='px-1'>Password</span>
         <br/>
         <input type="password" placeholder="Enter Password"  
-        className="w-80 px-3 py-1 border rounded-md outline-none"
+        className="w-80 px-3 py-1 border rounded-md outline-none dark:text-black"
         {...register("password", { required: true })}
         />
         <br/>
@@ -82,7 +82,8 @@ function Signup() {
         <button onClick={()=>document.getElementById("my_modal_3").showModal()} 
         className='underline text-blue-500 cursor-pointer'>Login
         </button>{" "}
-        <Login/> </p>
+        <Login/> 
+        </p>
     </div>
     </form>
   </div>

@@ -6,7 +6,7 @@ function Footer() {
     <hr/>
     <footer className="footer footer-center text-base-content rounded p-10 dark:bg-slate-900 dark:text-white ">
     <nav className="grid grid-flow-col gap-4">
-      <a className="link link-hover">About us</a>
+      <a href="https://mr-00-tuzki.tech/" className="link link-hover">About me</a>
       <a className="link link-hover">Contact</a>
       <a className="link link-hover">Jobs</a>
       <a className="link link-hover">Press kit</a>
@@ -49,7 +49,7 @@ function Footer() {
       </div>
     </nav>
     <aside>
-      <p>Copyright © ${new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+      <p>Copyright © {new Date().getFullYear()} - All rights reserved  | Designed by Tushar kumar</p>
     </aside>
   </footer></div>
   )

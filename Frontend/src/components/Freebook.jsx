@@ -60,10 +60,10 @@ function Freebook() {
     <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
 
       <div>
-      <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+      <h1 className="font-semibold text-xl pb-2">Free Offered Books</h1>
       <p>
-            Lorem ipsum dolor sit amet, Felis eget nunc nukul iko nmol mjik nunc laboratories lobortis mattis aliquam faucibus purus in.
-            Leo in vitae turpis massa sed elementum tempus!.
+      Discover our exclusive selection of free books, available for you to enjoy without any cost! Expand your horizons and dive into new 
+      adventures with our complimentary reads. Start your literary journey today with our free offerings!
       </p>
       </div>
     

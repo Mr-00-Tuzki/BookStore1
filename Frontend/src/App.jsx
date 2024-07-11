@@ -5,6 +5,7 @@ import Courses from './courses/Courses';
 import Signup from './components/Signup';
 import { Toaster } from 'react-hot-toast';
 import { useAuth } from './context/AuthProvider';
+import Contacts from './contacts/Contacts.jsx';
 
 function App() {
   const [authUser,setAuthUser]=useAuth()
@@ -15,7 +16,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/course" element={authUser ? <Courses/> : <Navigate to="/signup"/>}/>
       <Route path="/signup" element={<Signup/>}/>
-      
+      <Route path='/contact' element={<Contacts/>}/>
      </Routes>
      <Toaster />
     </>

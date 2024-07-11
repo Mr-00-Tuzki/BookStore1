@@ -20,13 +20,13 @@ function Course() {
   },[])
   return (
     <>
-      <div className="max-w-screen-4xl container mx-auto md:px-20 px-4">
-      <div className="mt-28 items-center justify-center text-center">
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 pt-2"> 
+      <div className="mt-28 items-center justify-center text-center">  
         <h1 className="text-2xl md:text-4xl">We're delighted to have you <span className="text-pink-500">Here! :)</span></h1>
-        <p className="mt-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Felis eget nunc lobortis mattis aliquam faucibus purus in.
-            Leo in vitae turpis massa sed elementum tempus!.
+        <p className="mt-6 md:mt-12"> 
+        Welcome, Premium Member! Enjoy exclusive access to our extensive library of premium books, handpicked just for you. 
+        Dive into an enriched reading experience with advanced features and personalized recommendations, all tailored to elevate 
+        your literary journey. Thank you for choosing to be a part of our elite community!
         </p>
         <Link to="/">
         <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">Back</button>
