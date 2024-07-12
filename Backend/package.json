@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mr-00-Tuzki/BookStoreApp.git"
+    "url": "git+https://github.com/Mr-00-Tuzki/BookStore1.git"
   },
   "author": "Tuzki",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mr-00-Tuzki/BookStoreApp/issues"
+    "url": "https://github.com/Mr-00-Tuzki/BookStore1/issues"
   },
-  "homepage": "https://github.com/Mr-00-Tuzki/BookStoreApp#readme",
+  "homepage": "https://github.com/Mr-00-Tuzki/BookStore1#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
