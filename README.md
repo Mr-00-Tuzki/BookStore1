@@ -68,14 +68,23 @@ To run this project locally, follow these steps:
 6. Experience the responsive design on various devices (mobile, tablet, desktop).
 
 ## Screenshots
-### Homepage
-![Homepage](path/to/homepage-screenshot.jpg)
+### Homepage-light
+<img src="pics/main-light.png"/>
 
-### Dark Mode
-![Dark Mode](path/to/dark-mode-screenshot.jpg)
+### Homepage-dark
+<img src="pics/main-dark.png"/>
+
+### Signup
+<img src="pics/signup.png"/>
+
+### Login
+<img src="pics/Login.png"/>
+
+### Course Page-Light
+<img src="pics/course-light.png"/>
+
+### Course Page-Dark
+<img src="pics/course-dark.png"/>
 
 ### Mobile View
-![Mobile View](path/to/mobile-view-screenshot.jpg)
-
-### Tablet View
-![Tablet View](path/to/tablet-view-screenshot.jpg)
+<img src="pics/Responsive.png"/>
