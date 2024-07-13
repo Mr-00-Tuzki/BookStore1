@@ -3,15 +3,11 @@
 Welcome to the BookStore App! This project is a full-stack application developed using the MERN stack (MongoDB, Express.js, React, and Node.js). It offers a variety of books categorized into free and premium sections. Users can sign up to access premium books, while free books are accessible without login. The app supports both dark and light modes and is fully responsive.
 
 ## Table of Contents
-- [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-
-## Demo
-Check out the live demo of the website [here](https://your-demo-link.com).
 
 ## Features
 - New users must sign up to view the premium books category
